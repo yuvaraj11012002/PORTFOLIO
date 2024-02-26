@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 100%;
+}
+section{
+    background: #2d2d2d;
+}
+.mail{
+    width: 200px;
+    height: 200px;
+}
+
+.mail img{
+    border: 2px solid black;
+    border-radius: 70%;
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.mail h2{
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 20px;
+}
+.mail p{
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 20px;
+}
+.phone{
+    width: 200px;
+    height: 200px;
+}
+.phone img{
+    border: 2px solid black;
+    border-radius: 40%;
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.phone span{
+    font: bolder;
+    color: red;
+}
+.phone p{
+    font-size: var(--p-font);
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    display: flex;
+    width: 100%;
+}
+.phone h2{
+    color: white;
+    margin: 20px;
+}
+.address h2{
+    margin: 20px;
+    color: whitesmoke;   
+}
+.address p{
+    font-weight: 400;
+    display: flex;
+    font-style: italic;
+    margin: 20px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
